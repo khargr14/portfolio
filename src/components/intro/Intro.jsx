@@ -1,5 +1,6 @@
 import React from 'react'
 import "./intro.css"
+import ME from "../../img/Me.png"
 
 const Intro = () => {
     return (
@@ -19,13 +20,22 @@ const Intro = () => {
                             
                         </div>
                     </div>
+                    <p className='i-desc'>
+                        write out desc..........
+                    </p>
                 </div>
+                <svg>
+                    
+                </svg>
             </div>
-            <div className='i-right'>Right</div>
+            <div className='i-right'> 
+                <div className='i-bg'></div>
+                <img src={ ME} alt='' className='i-img' />
+            </div>
 
         </div>
 
-    )
-}
+    );
+};
 
 export default Intro
