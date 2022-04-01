@@ -1,9 +1,11 @@
 import "./contact.css";
-import Phone from "../../img/Phone.jpg";
-import Email from "../../img/Email.jpg";
+import Github from "../../img/Github.png";
+import Linkedin from "../../img/Linkedin.png";
 // import Address from "../../img/address.png";
 import { useContext, useRef, useState } from "react";
-import emailjs from "emailjs-com";
+ import emailjs from "emailjs-com";
+import{ init } from '@emailjs/browser';
+// init("ddlYP7ARS5lTizbPo");
 import { ThemeContext } from "../../context";
 
 const Contact = () => {
@@ -40,17 +42,17 @@ const Contact = () => {
           <h1 className="c-title">Let's discuss your project</h1>
           <div className="c-info">
             <div className="c-info-item">
-              <img src={Phone} alt="" className="c-icon" />
-              +1 1234 556 75
+            <a href="https://github.com/khargr14">
+              <img src={Github} alt="" className="c-icon" />
+            </a>
             </div>
             <div className="c-info-item">
-              <img className="c-icon" src={Email} alt="" />
-              contact@lama.dev
+            <a href="https://www.linkedin.com/in/keeshahargrove/">
+          <img className="c-icon" src={Linkedin} alt="" />
+           </a>
+
             </div>
-            <div className="c-info-item">
-              {/* <img className="c-icon" src={Address} alt="" /> */}
-              245 King Street, Touterie Victoria 8520 Australia
-            </div>
+            
           </div>
         </div>
         <div className="c-right">
@@ -68,6 +70,12 @@ const Contact = () => {
           </form>
         </div>
       </div>
+
+     
+        
+              
+
+
     </div>
   );
 };

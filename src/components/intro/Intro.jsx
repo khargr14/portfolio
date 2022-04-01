@@ -1,6 +1,6 @@
 import React from 'react'
 import "./intro.css"
-import ME from "../../img/Me.png"
+import Me2 from "../../img/Me2.png"
 
 const Intro = () => {
     return (
@@ -9,19 +9,10 @@ const Intro = () => {
                 <div className='i-left-wrapper'>
                     <h2 className='i-intro'>Hello, my name is </h2>
                     <h1 className='i-name'>Keesha Hargrove</h1>
-                    <div className='i-title'>
-                        <div className="i-title-wrapper">
-                            <div className="i-title-item"> Web Developer </div>
-                            <div className="i-title-item"> Web Developer 2 </div>
-                            <div className="i-title-item"> Web Developer 3</div>
-                            <div className="i-title-item"> Web Developer 4</div>
-                            <div className="i-title-item"> Web Developer 5</div>
-                            <div className="i-title-item"> Web Developer 6</div>
-                            
-                        </div>
-                    </div>
+                    <h3 className='i-name-2'>Web Developer</h3>
+                    
                     <p className='i-desc'>
-                        write out desc..........
+                    Experienced web developer who understands web applications, relational databases, as well as software engineering, coding, and programming. Having the ability to work cooperatively and solve problems effectively is vital in a fast-paced environment. Full-Stack engineer who is passionate about developing and polishing existing features, and understands the impact of the interface on user experience. 
                     </p>
                 </div>
                 <svg
@@ -82,8 +73,22 @@ const Intro = () => {
         </svg>
             </div>
             <div className='i-right'> 
-                <div className='i-bg'></div>
-                <img src={ ME} alt='' className='i-img' />
+                <div className='i-bg'>
+                  
+                </div>
+                <div className="i-title">
+            <div className="i-title-wrapper">
+              <div className="i-title-item">Web Developer</div>
+              <div className="i-title-item">UI/UX Designer</div>
+              <div className="i-title-item">Photographer</div>
+              <div className="i-title-item">Problem-solving</div>
+              <div className="i-title-item">dependability</div>
+            </div>
+            </div>
+                
+                {/* <img src={ Me2} alt='' className='i-img' /> */}
+
+                
             </div>
 
         </div>

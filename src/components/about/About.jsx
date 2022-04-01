@@ -17,10 +17,12 @@ const About = () => {
                 <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          I need something here
+        Full Stack Web Developer
         </p>
         <p className="a-desc">
-          I need more here
+        Passionate, creative, and analytical developer seeking a challenging environment. 5+ years of experience in management, business decision making, and customer service.
+
+Dedicated Full Stack Engineer with extensive training in gathering, designing, coding, testing, debugging, and maintenance of all phases of the software development process. Flexible and quick to learn with a positive attitude.
         </p>
         
       </div>

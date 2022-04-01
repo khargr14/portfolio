@@ -1,7 +1,7 @@
 import "./toggle.css";
 import One from "../../img/One.jpg";
 import Two from "../../img/Two.jpg";
- import { useContext } from "react";
+import { useContext } from "react";
 import { ThemeContext } from "../../context";
 
 const Toggle = () => {
@@ -9,6 +9,7 @@ const Toggle = () => {
 
   const handleClick = () => {
     theme.dispatch({ type: "TOGGLE" });
+
   };
   return (
     <div className="t">
