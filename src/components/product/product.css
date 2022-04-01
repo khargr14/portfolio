@@ -1,4 +1,4 @@
-.p {
+.p-left{
     width: 30%;
     height: 40vh;
     margin: 20px 10px;
@@ -7,7 +7,9 @@
     overflow: hidden;
   }
 
-  .p-browser {
+  
+
+  .p-center-browser {
     height: 20px;
     background-color: rgb(243, 242, 242);
     display: flex;
@@ -16,7 +18,7 @@
     z-index: 2;
   }
   
-  .p-circle {
+  .p-left-circle {
     width: 6px;
     height: 6px;
     border-radius: 50%;
@@ -32,9 +34,108 @@
   .p:hover .p-img {
     transform: translateY(-100%);
   }
+
+  .p-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+  }
+  
+  .p-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+  }
+  
+
+  .p-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+  }
+
+
+  .p-right{
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+  }
+
+  
+
+  .p-right-browser {
+    height: 20px;
+    background-color: rgb(70, 7, 56);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+  }
+  
+  .p-right-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: rgb(243, 10, 173);
+  }
+
+
+  .p-center{
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+  }
+
+  
+
+  .p-center-browser {
+    height: 20px;
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+  }
+  
+  .p-center-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: rgb(243, 10, 173);
+  }
+
+
+
   
   @media screen and (max-width: 480px) {
-    .p {
+    .p-left {
+      width: 40%;
+      height: 20vh;
+    }
+
+    .p-center {
+      width: 40%;
+      height: 20vh;
+    }
+
+    .p-right {
       width: 40%;
       height: 20vh;
     }

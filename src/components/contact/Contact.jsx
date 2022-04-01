@@ -1,7 +1,7 @@
 import "./contact.css";
 import Github from "../../img/Github.png";
 import Linkedin from "../../img/Linkedin.png";
-// import Address from "../../img/address.png";
+import Blog from "../../img/Blog.jpg";
 import { useContext, useRef, useState } from "react";
  import emailjs from "emailjs-com";
 import{ init } from '@emailjs/browser';
@@ -49,10 +49,15 @@ const Contact = () => {
             <div className="c-info-item">
             <a href="https://www.linkedin.com/in/keeshahargrove/">
           <img className="c-icon" src={Linkedin} alt="" />
-           </a>
+         </a>
 
             </div>
-            
+            <div className="c-info-item">
+            <a href="https://medium.com/@kharg14">
+              <img className="c-icon" src={Blog} alt="" />
+              </a>
+              
+            </div>
           </div>
         </div>
         <div className="c-right">
@@ -71,7 +76,9 @@ const Contact = () => {
         </div>
       </div>
 
-     
+      {/* <a href='Keesha-Hargrove-Resume.net.pdf' download='Keesha Hargrove Resume.pdf'> </a>
+          <button >get resume</button> */}
+
         
               
 

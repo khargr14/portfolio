@@ -97,3 +97,5 @@ const Intro = () => {
 };
 
 export default Intro
+
+//480px for media
