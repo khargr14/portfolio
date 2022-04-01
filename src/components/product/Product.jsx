@@ -1,7 +1,10 @@
 import React from 'react'
 import "./product.css"
-import Github from "../../img/Github.png";
+import NewsArticles from "../../img/NewsArticles.jpg";
 
+
+import Movie from "../../img/Movie.png";
+import Github from "../../img/Github.png";
 const Product = ({img,link})=> {
   return (
     
@@ -27,8 +30,8 @@ const Product = ({img,link})=> {
           <div className="p-circle"></div>
         </div>
         <div className="c-info-item">
-            <a href="https://github.com/khargr14">
-              <img src={Github} alt="" className="c-icon" />
+            <a href="https://www.loom.com/share/5aca05bde72045aabc01cc934df51df6">
+              <img src={NewsArticles} alt="" className="c-icon" />
             </a>
             </div>
             
@@ -43,8 +46,8 @@ const Product = ({img,link})=> {
           <div className="p-center-circle"></div>
         </div>
         <div className="c-info-item">
-            <a href="https://github.com/khargr14">
-              <img src={Github} alt="" className="c-icon" />
+            <a href="https://www.loom.com/share/e0b34edb3d6445df93ce78723a242ba0">
+              <img src={Movie} alt="" className="c-icon" />
             </a>
             </div>
             
