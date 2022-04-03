@@ -4,7 +4,7 @@ import Linkedin from "../../img/Linkedin.png";
 import Blog from "../../img/Blog.jpg";
 import { useContext, useRef, useState } from "react";
  import emailjs from "emailjs-com";
-import{ init } from '@emailjs/browser';
+// netlifyimport{ init } from '@emailjs/browser';
 // init("ddlYP7ARS5lTizbPo");
 import { ThemeContext } from "../../context";
 

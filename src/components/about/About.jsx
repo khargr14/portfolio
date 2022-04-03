@@ -22,7 +22,7 @@ const About = () => {
         <p className="a-desc">
         Passionate, creative, and analytical developer seeking a challenging environment. 5+ years of experience in management, business decision making, and customer service.
 
-Dedicated Full Stack Engineer with extensive training in gathering, designing, coding, testing, debugging, and maintenance of all phases of the software development process. Flexible and quick to learn with a positive attitude.
+Dedicated Full Stack Engineer with extensive training in gathering, designing, coding, testing, debugging, and maintaining all phases of software development. Flexible and quick to learn with a positive attitude.
         </p>
         
       </div>
